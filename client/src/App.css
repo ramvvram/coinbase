@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+.component-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.viewscontainer{
+  max-width: 900px;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-around;
+   
+  gap:1rem;
+  background-color:#313030;
+  
+}
+.price-view, .match-view, .system-status {
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+.match-item.buy {
+  color: green;
+}
+
+.match-item.sell {
+  color: red;
+}

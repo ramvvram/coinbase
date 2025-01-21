@@ -1,0 +1,28 @@
+.match-view {
+    border: 1px solid var(--text-color);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.match-list {
+    list-style: none;
+    padding: 0;
+}
+
+.match-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid var(--text-color);
+}
+
+.match-item.buy {
+    color: green;
+}
+
+.match-item.sell {
+    color: red;
+}

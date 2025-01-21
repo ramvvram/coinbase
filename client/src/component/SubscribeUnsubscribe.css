@@ -1,0 +1,49 @@
+.subscribe-container {
+    border: 1px solid var(--text-color);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+    max-width: 900px;
+    
+}
+.sub-unsub-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:.5rem;
+    background-color:#490360;
+    max-width: 600px;
+    padding: 1rem;
+    
+}
+.sub-unsub-container div{
+    background-color:#670289;
+    border:1px solid #494747;
+    padding: .4rem;
+    border-radius:10px;
+}
+.subscribe-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.subscribe-item button {
+    padding: 5px 15px;
+}
+
+h2{
+    color:rgb(184, 225, 241);
+}
+.subscribe-btn{
+ background-color:rgba(1, 161, 164, 0.924)
+}
+.unsubscribe-btn{
+    background-color:rgba(233, 3, 3, 0.924)
+}.unsubscribe-btn:hover{
+    background-color:rgba(93, 6, 6, 0.924)
+}
